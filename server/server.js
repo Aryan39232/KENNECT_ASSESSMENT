@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 5000;
 connectDB();
 
 app.use(cors({
-  origin: ['https://clinic-management-ss3v.vercel.app', 'https://clinic-management-fawn.vercel.app', 'http://localhost:5173'],
+  origin: ['https://kennect-assessment.vercel.app', 'http://localhost:5173'],
   credentials: true,
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   allowedHeaders: 'Content-Type,Authorization'

@@ -1,0 +1,85 @@
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px 25px;
+  background-color: #f9faff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #007BFF;
+  letter-spacing: 1px;
+}
+
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 350px; /* set max height */
+  overflow-y: auto;  /* enable vertical scroll */
+  scroll-behavior: smooth; /* smooth scrolling */
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Optional: customize scrollbar for modern browsers */
+.list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.list::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 123, 255, 0.5);
+  border-radius: 4px;
+}
+
+.list::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 123, 255, 0.8);
+}
+
+
+.emptyState {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+.listItem:hover {
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.15);
+}
+
+.appointmentInfo {
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.appointmentDetails {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.3;
+}

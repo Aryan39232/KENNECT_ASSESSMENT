@@ -1,0 +1,193 @@
+.auth-form-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+}
+
+.auth-form-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.logout-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #b02a37;
+}
+
+/* ClinicList Styles */
+.clinic-list-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.clinic-list-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.clinic-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  max-height: 336px; /* ~ 7 clinics * 48px each (adjust if needed) */
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Scrollbar Styling for Webkit */
+.clinic-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.clinic-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+.clinic-list::-webkit-scrollbar-thumb {
+  background: #007BFF;
+  border-radius: 5px;
+}
+
+.clinic-list li {
+  margin-bottom: 8px;
+}
+
+.clinic-list button {
+  width: 100%;
+  padding: 12px 15px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.clinic-list button:hover {
+  background-color: #0056b3;
+}
+
+/* AppointmentForm styles */
+.appointment-container {
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.appointment-container h2,
+.appointment-container h4 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.appointment-label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+
+.appointment-input,
+.appointment-select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.book-btn {
+  padding: 12px;
+  background-color: #007BFF;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #0056b3;
+}
+
+.back-btn {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #6c757d;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #545b62;
+}
+
+/* PatientAppointments styles */
+.patient-appointments {
+  max-width: 700px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.patient-appointments h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.patient-appointments ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.patient-appointments li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  color: #555;
+}
+
+.patient-appointments li:last-child {
+  border-bottom: none;
+}
